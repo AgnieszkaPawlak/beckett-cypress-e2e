@@ -1,0 +1,33 @@
+{
+  "happyPath": {
+    "_comment": "Added each card as seperate object - there is a little data duplication, but in future those values for each card can differ, so it seems more open for extension pattern wise, comparing to single card with array of decorated values",
+    "cards": [
+      {
+        "_comment": "Only first should be marked as Oversized Card",
+        "oversized": true,
+        "quantity": 1,
+        "declaredValue": 100
+      },
+      {
+        "oversized": false,
+        "quantity": 1,
+        "declaredValue": 200
+      },
+      {
+        "oversized": false,
+        "quantity": 1,
+        "declaredValue": 300
+      },
+      {
+        "oversized": false,
+        "quantity": 1,
+        "declaredValue": 400
+      },
+      {
+        "oversized": false,
+        "quantity": 1,
+        "declaredValue": 500
+      }
+    ]
+  }
+}

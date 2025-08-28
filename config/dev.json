@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://beckett.com",
+  "defaultCommandTimeout": 20000
+}

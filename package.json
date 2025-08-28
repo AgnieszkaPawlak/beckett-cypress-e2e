@@ -1,0 +1,26 @@
+{
+  "name": "beckett-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "cypress:open": "npx cypress open --e2e --browser chrome --env target_environment=dev",
+    "cypress:run": "npx cypress run --spec \"cypress/e2e/beckett/*.cy.ts\" --env target_environment=dev",
+    "test": "npm run cypress:run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "npm run format"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "cypress": "^15.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
