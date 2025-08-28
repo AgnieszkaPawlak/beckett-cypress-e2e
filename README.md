@@ -4,7 +4,7 @@
 
 This project introduces the E2E Frontend automatic tests for https://beckett.com/ site, which works as a hub for trading cards.
 First iteration of the project provides the ability to check happy flow (flow without any alternative paths) for card submission
-Project is hosted on https://github.com/AgnieszkaPawlak/cypress repository
+Project is hosted on https://github.com/AgnieszkaPawlak/beckett-cypress-e2e repository
 
 ## Architecture
 
