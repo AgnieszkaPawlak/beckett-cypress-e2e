@@ -1,0 +1,12 @@
+{
+  "firstName": "Aga",
+  "lastName": "Kowalska",
+  "email": "aga.kowalska@example.com",
+  "phone": "+48 600-700-800",
+  "country": "Poland",
+  "address": "ul. Fikcyjna 1",
+  "city": "Warszawa",
+  "state": "Masovian Voivodeship",
+  "zipCode": "00-001"
+}
+

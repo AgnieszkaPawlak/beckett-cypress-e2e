@@ -1,0 +1,41 @@
+# ——— Node / ogólne ———
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Artefakty buildów
+dist/
+build/
+artifacts/
+out/
+.tmp/
+.temp/
+*.tsbuildinfo
+
+# Coverage / raporty
+coverage/
+.nyc_output/
+
+# Środowiska / lokalne sekrety
+.env
+.env.*.local
+*.local
+
+# System/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ——— Cypress ———
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/reports/
+.cypress-cache
+
+# Jeżeli generujesz tymczasowe/sekretne fixtury
+cypress/fixtures/*secrets*.json
